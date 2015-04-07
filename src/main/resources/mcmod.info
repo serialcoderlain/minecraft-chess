@@ -1,0 +1,16 @@
+[
+{
+  "modid": "chess",
+  "name": "Chess",
+  "description": "Play chess in minecraft!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "updateUrl": "",
+  "authorList": ["Serial Coder Lain"],
+  "credits": "Whomever needs to be credited.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
+
