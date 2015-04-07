@@ -5,6 +5,7 @@
   "description": "Play chess in minecraft!",
   "version": "${version}",
   "mcversion": "${mcversion}",
+  "url": "https://github.com/serialcoderlain/minecraft-chess",
   "updateUrl": "",
   "authorList": ["Serial Coder Lain"],
   "credits": "Whomever needs to be credited.",
@@ -13,4 +14,3 @@
   "dependencies": []
 }
 ]
-
