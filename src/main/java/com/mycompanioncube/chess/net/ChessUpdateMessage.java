@@ -1,4 +1,7 @@
-package com.mycompanioncube.chess;
+package com.mycompanioncube.chess.net;
+
+import com.mycompanioncube.chess.Chess;
+import com.mycompanioncube.chess.ChessTileEntity;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.entity.player.EntityPlayer;
@@ -58,6 +61,7 @@ public class ChessUpdateMessage implements IMessage, IMessageHandler<ChessUpdate
 		ChessTileEntity entity = (ChessTileEntity) thePlayer.worldObj.getTileEntity(new BlockPos(message.x, message.y, message.z));
 		entity.readFromNBT(message.tags);
 		entity.getWorld().markBlockForUpdate(new BlockPos(message.x, message.y, message.z));
+		entity.getWorld().playSoundEffect(message.x, message.y, message.z, Chess.MODID + ":chessMove" , 1, 1);
 		entity.markDirty();
 		return null;
 	}

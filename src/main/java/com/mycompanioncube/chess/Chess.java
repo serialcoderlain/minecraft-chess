@@ -1,5 +1,7 @@
 package com.mycompanioncube.chess;
 
+import com.mycompanioncube.chess.net.ChessUpdateMessage;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;

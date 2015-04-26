@@ -25,7 +25,7 @@ public class ChessBoard extends Block implements ITileEntityProvider {
 		super(materialIn);
 		setHardness(0.5F);
 		setStepSound(Block.soundTypeWood);
-		setUnlocalizedName(Chess.MODID + "_" + name);
+		setUnlocalizedName(Chess.MODID + "." + name);
 		setCreativeTab(CreativeTabs.tabDecorations);
 		setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 0.13F, 1.0F);
 	}

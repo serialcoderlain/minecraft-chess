@@ -1,5 +1,5 @@
 # Items
-tile.chess_blockChessBoard.name=Chessboard
+tile.chess.blockChessBoard.name=Chessboard
 
 # Blocks
-block.chess_blockChessBoard.name=Chessboard
+block.chess.blockChessBoard.name=Chessboard

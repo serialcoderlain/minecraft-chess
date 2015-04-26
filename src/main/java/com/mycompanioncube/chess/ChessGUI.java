@@ -22,6 +22,8 @@ import java.util.List;
 
 import org.lwjgl.opengl.GL11;
 
+import com.mycompanioncube.chess.net.ChessUpdateMessage;
+
 @SideOnly(Side.CLIENT)
 public class ChessGUI extends GuiScreen {
 	private static final ResourceLocation texture = new ResourceLocation(Chess.MODID, "textures/gui/chessBoard.png");
